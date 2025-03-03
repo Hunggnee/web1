@@ -1,0 +1,50 @@
+/* /public/css/style.css */
+/* Custom styles for the blog website */
+
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    color: #333;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.blog-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* Form styling */
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Blog post styling */
+.blog-post {
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.blog-post-meta {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
